@@ -8,6 +8,34 @@
  * For more information on global stylesheets, visit the documentation:
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+ion-tab-bar {
+  background-color: #2ecc71;
+}
+
+ion-tab-button {
+  font-family: "Open Sans", sans-serif;
+  --color: #000000;
+  --color-selected: #006400;
+}
+
+ion-label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+
+ion-tab-button.tab-selected ion-label {
+  color: #006400;
+}
+
+.tab-image {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-bottom: 4px;
+}
 
 /* Core CSS required for Ionic components to work properly */
 @import "@ionic/angular/css/core.css";
