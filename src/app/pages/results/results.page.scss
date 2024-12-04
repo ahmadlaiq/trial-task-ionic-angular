@@ -1,0 +1,36 @@
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.landscape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.landscape img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.shield-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shield-container img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 8px;
+}
