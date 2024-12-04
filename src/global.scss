@@ -37,6 +37,23 @@ ion-tab-button.tab-selected ion-label {
   margin-bottom: 4px;
 }
 
+
+ion-tab-button ion-label {
+  color: #000;
+  font-size: 14px;
+}
+
+/* Gaya untuk tab yang aktif */
+ion-tab-button.active-tab ion-label {
+  color: #006400;
+  font-weight: bold; 
+}
+
+
+ion-tab-button.active-tab img {
+  filter: brightness(0.5) saturate(2) hue-rotate(-40deg);
+}
+
 /* Core CSS required for Ionic components to work properly */
 @import "@ionic/angular/css/core.css";
 
